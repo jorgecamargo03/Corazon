@@ -20,7 +20,7 @@
       display: flex;
       text-align: center;
       justify-content: center;
-      background-color: rgb(247, 158, 247);
+      background-color: rgb(124, 63, 124);
       height: 100vh;
   
 
@@ -86,6 +86,7 @@
         font-family: "Montserrat", sans-serif;
         padding: 10px;
         display: block;
+        color: white;
     }
     strong{
         
@@ -123,13 +124,35 @@
             height: 70%;
         }
     }
-    
+    @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(44px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes rgbText {
+            0% { color: #ec0ca8; }
+            33% {color: lightpink;}
+            66% { color: rgb(255, 0, 234); }
+            100%{color:#ec0ca8}
+        }
+        .texto-animado {
+          
+            font-size: 4em;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards, rgbText 3s infinite linear;;
+        }
   </style>
 </head>
 <body>
-  <header><h1>Pa Usted</h1> 
+  <header><h1>Pa Usted🌹</h1> 
    
-    <strong>Corazon D. Melon</strong>
+    <strong class="texto-animado">Corazon D. Melon</strong>
 </header>  
   
         <iframe src="corazon.html" frameborder="0" id="corz">
