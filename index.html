@@ -23,55 +23,11 @@
           <br> 
           <img src="imagens/zabl.webp" alt="" id="zab">
         </div>
-      
+        <footer id="hert">
+          <p>Cade Os corações???</p><br>
+          <button id="korazon">Clica aqui kkkkk</button>
+        </footer>
   
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script>
-    // Função para criar e animar o coração
-    function createHeart() {
-      const heart = document.createElement('div');
-      heart.classList.add('heart');
-      
-      // Posição aleatória para o coração
-      const randomX = Math.random() * window.innerWidth;
-      heart.style.left = `${randomX}px`;
-
-      // Adiciona o coração ao corpo do documento
-      document.body.appendChild(heart);
-      
-      // Remove o coração após a animação (4s)
-      setTimeout(() => {
-        heart.remove();
-      }, 4000);
-    }
-
-    // Cria corações a cada 500ms
-    setInterval(createHeart, 500);
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
