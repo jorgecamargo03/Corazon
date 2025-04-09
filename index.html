@@ -5,170 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Corazon D. Melon</title>
   <link rel="shortcut icon" href="imagens/teach.png" type="image/x-icon">
-
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
-    * {
-     margin: 0px;
-     padding: 0px;
-     box-sizing: border-box;
-    }
-
-    body {
-      
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      background-color: rgb(124, 63, 124);
-      height: 100vh;
-  
-
-    }
-
-    .heart {
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      background-color: red;
-      transform: rotate(-50deg); /* Mantém o coração em pé */
-      animation: heart-animation 4s ease-in-out forwards;
-      opacity: 0;
-    }
-
-    .heart:before,
-    .heart:after {
-      content: '';
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      background-color: red;
-      border-radius: 50%;
-    }
-  
-
-    .heart:before {
-      top: -25px;
-      left: 0;
-    }
-
-    .heart:after {
-      top: 0;
-      left: 25px;
-    }
-
-    /* Animação que faz o coração subir e desaparecer */
-    @keyframes heart-animation {
-      0% {
-        top: 100%;
-        opacity: 1;
-      }
-      50% {
-        top: 50%;
-        opacity: 0.3;
-      }
-      100% {
-        top: -20%;
-        opacity: 0;
-      }
-    
-    }
-
-
-
-
-
-
-
-
-    .otr{
-        display: none;
-    }
-    h1{
-        font-family: "Montserrat", sans-serif;
-        padding: 10px;
-        display: block;
-        color: white;
-    }
-    strong{
-       
-        display: inline-block;
-        text-align: center;
-        font-size: 4em;
-        font-weight: 2;
-        font-family: "Rouge Script", cursive;
-    }
-
-    html, body {
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-   }
-
-    #corz{
-        
-        margin-top: 60px;
-        box-shadow: 2px 1px 10px 1px black;
-        border: solid 2px black;
-        border-radius: 20px;
-        position: absolute;
-       
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 55%;
-        width: 80%;
-    }
-   
-    @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(44px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        @keyframes rgbText {
-            0% { color: #ec0ca8; }
-            33% {color: lightpink;}
-            66% { color: rgb(255, 0, 234); }
-            100%{color:#ec0ca8}
-        }
-       
-        .texto-animado {
-          
-            font-size: 4em;
-            font-weight: bold;
-            opacity: 0;
-            animation: fadeIn 2s ease-in-out forwards, rgbText 3s infinite linear;;
-        }
-        
-        #volta{
-          
-        
-        }
-       
-h4{
- float: left;
-}
-
-
-  </style>
+   <link rel="stylesheet" href="estilo.css".css">
 </head>
 <body>
   <header><h1>Pa Usted🌹</h1> 
-   
     <strong class="texto-animado">Corazon D. Melon</strong>
 </header>  
       
-        <iframe src="corazon.html" frameborder="0" id="corz">
-        </iframe>
+        <div id="corz">
+          <h1 id="dinn">💐Feliz  Aniversario 💐 </h1>
+          <p id="padrao">Quero Que esse dia Seja Muito Feliz Pra voce, Nao so esse ne  o azideakkkkk, <br>Que Voce Seja Feliz Todos os dias. <br>
+          mesmo Nessa Situaçao de agora😞, Ainda Torço Pela Sua Felicidade, Espero Que em Breve Agente Possa Passar Mais Tempo Juntos, Voce Merece Tudo De Melhor Nesse Dia E todos os outros Tbm kkkkkk,
+          Independentemente de tudo, só quero que você seja feliz e tenha muitos momentos incríveis pela frente kkkk, voce merece tudo de bom hoje e sempre💖.
+          Feliz Aniversario
+           <br>
+          <p id="marie">💕💕Maria Julia💕💕</p>
+          <br> 
+          <img src="imagens/zabl.webp" alt="" id="zab">
+        </div>
       
-    
-   
-    <h4>voce ta vendo isso?, manda msg ai...</h4>
   
    
 
