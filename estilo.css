@@ -12,17 +12,17 @@
 }
 
 body {
-
+  
   color: white;
   display: flex;
   text-align: center;
   justify-content: center;
- background-image: url(imagens/wallhaven-0qx7ed_1920x1080.png);
- background-position: center;
- background-size: cover;
- background-repeat: no-repeat;
+  background-image: url(imagens/wallhaven-0qx7ed_1920x1080.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
-
+  width: 100vw;
 
 }
 
