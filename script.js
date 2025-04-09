@@ -1,4 +1,4 @@
-const korazon = document.getElementById('korazon'); // ou .querySelector, dependendo
+const korazon = document.getElementById('korazon');
 let intervalId = null;
 
 korazon.addEventListener('click', () => {
@@ -17,7 +17,9 @@ function createHeart() {
   const randomX = Math.random() * window.innerWidth;
   heart.style.left = `${randomX}px`;
 
-  document.body.appendChild(heart);
+  // Adiciona dentro da div container
+  const container = document.querySelector('.coracoes-container');
+  container.appendChild(heart);
 
   setTimeout(() => {
     heart.remove();
