@@ -197,3 +197,12 @@ button{
   overflow: hidden;
   z-index: 999;
 }
+@media screen and (min-width: 992px) {
+  
+   #corz{
+    height: 750px;
+   }
+   footer{
+    margin-top:2.4px ;
+   }
+}
