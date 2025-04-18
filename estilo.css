@@ -208,6 +208,7 @@ h5{
   font-size: 1.2em;
    position: absolute;
   bottom: 90px;
+  left: 0;
 }
 @media screen and (min-width: 992px) {
     header{
