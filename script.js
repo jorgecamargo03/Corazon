@@ -25,3 +25,4 @@ function createHeart() {
     heart.remove();
   }, 4000);
 }
+
