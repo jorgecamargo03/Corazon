@@ -12,15 +12,15 @@
 }
 
 body {
-  
+  overflow-x: hidden;
   color: white;
   display: flex;
   text-align: center;
   justify-content: center;
   background-image: url(imagens/wallhaven-0qx7ed_1920x1080.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center ;
+  
+  background-repeat: repeat;
   height: 100vh;
   width: 100vw;
 
@@ -60,7 +60,7 @@ body {
 /* Animação que faz o coração subir e desaparecer */
 @keyframes heart-animation {
   0% {
-    top: 90%;
+    top: 80%;
     opacity: 1;
   }
   50% {
@@ -80,7 +80,7 @@ body {
 
 
 #korazon{
-  margin-top: -10px;
+ margin-top: 20px;
   height:60px;
   border: none;  
   cursor: pointer; 
@@ -90,8 +90,9 @@ body {
     display: none;
 }
 h1{
+  font-size: 1.4em;
     font-family: "Montserrat", sans-serif;
-    padding: 10px;
+    padding: 2px;
     display: block;
     color: white;
 }
@@ -99,34 +100,29 @@ strong{
    
     display: inline-block;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 2;
     font-family: "Rouge Script", cursive;
 }
 
-html, body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  overflow: hidden;
-}
+
 
 #corz{
-  
+
     overflow-y: scroll;
     overflow-x: hidden;
-    margin-top: 60px;
+    margin-top: 40px;
     box-shadow: 2px 1px 10px 1px black;
     border: solid 2px black;
     border-radius: 20px;
     position: absolute;
+    max-height: 900px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
     background-color: #ec0ca991;
    
-  
-    height: 48%;
+    height: 60%;
     width: 80%;
 }
 
@@ -149,7 +145,7 @@ html, body {
    
     .texto-animado {
       
-        font-size: 4em;
+        font-size: 2.7em;
         font-weight: bold;
         opacity: 0;
         animation: fadeIn 2s ease-in-out forwards, rgbText 3s infinite linear;;
@@ -159,20 +155,21 @@ h4{
 float: left;
 }
 #dinn{
-   text-indent: .2em;
-    font-weight: 100;
-    margin-bottom: 10px;
+ font-size: 1.6em;
+    font-weight: 510;
+
+    margin-bottom: 1px;
     font-family: "Mystery Quest", system-ui;
-    padding: 10px;
+
 }
 p#marie{
   font-family: "Petit Formal Script", cursive;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 p#padrao{
     padding: 10px;
-    line-height: 1.8em;
-    font-size: 1.7em;
+    line-height: 1.5em;
+    font-size: 1.4em;
     font-family: "Sour Gummy", sans-serif;
 }
 #zab{
@@ -190,11 +187,11 @@ p#padrao{
 
 
 .coracoes-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   pointer-events: none;
   overflow: hidden;
   z-index: 999;
@@ -205,11 +202,11 @@ p#padrao{
 }
 
 h5{
-  margin-bottom: 35px;
+ 
   color: #1b0a0a;
-  font-size: 1.2em;
+  font-size: .6em;
    position: absolute;
-  bottom: 90px;
+  top: 0px;
   left: 0;
 }
 @media screen and (min-width: 992px) {
